@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "coffee-machine"
+version = "0.1.0"
+description = "Console coffee machine: Day 15 of Udemy's 100 Days of Code Python bootcamp."
+readme = "README.md"
+requires-python = ">=3.13"
+license = { file = "LICENSE" }
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff", "mypy"]
+
+[project.scripts]
+coffee-machine = "coffee_machine.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 88
+
+[tool.mypy]
+strict = true
+mypy_path = "src"

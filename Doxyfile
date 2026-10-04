@@ -1,0 +1,14 @@
+# Doxygen configuration for the coffee machine. Run: doxygen Doxyfile
+PROJECT_NAME           = "Coffee Machine"
+PROJECT_BRIEF          = "Day 15 of Udemy's 100 Days of Code Python bootcamp"
+OUTPUT_DIRECTORY       = docs/doxygen
+INPUT                  = src
+FILE_PATTERNS          = *.py
+RECURSIVE              = YES
+OPTIMIZE_OUTPUT_JAVA   = YES
+EXTRACT_ALL            = YES
+JAVADOC_AUTOBRIEF      = YES
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+QUIET                  = YES
+WARN_IF_UNDOCUMENTED   = YES
