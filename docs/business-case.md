@@ -9,7 +9,8 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-05 | Accepted | Jens Tirsvad Nielsen | S01 | Initial version | [c0c3940] |
+| 2026-10-06 | Accepted | Jens Tirsvad Nielsen | S01 | Added duration constraint (RC-001 action) | [8ef00aa] |
+| 2026-10-06 | Proposed | Jens Tirsvad Nielsen | S01 | Added objective 6 and scope for code review and CI | [8ef00aa] |
 
 ---
 
@@ -45,6 +46,7 @@ participants and for viewers browsing the repository.
 3. Cover the behaviour with automated pytest tests.
 4. Document how to set up a local `.venv` and run the program and tests.
 5. Publish the repository with a description, topics and README.
+6. Review the source code against the Python quality checklist and run the tests and code checks automatically on every push.
 
 ## Scope
 
@@ -55,6 +57,7 @@ participants and for viewers browsing the repository.
 - `pyproject.toml`, Python `.gitignore`, `Doxyfile`, `README.md`.
 - Project documents under `docs/`.
 - Repository description and topics on the git host.
+- A review record for the source code and a CI workflow (MIL-004).
 
 ### Out of Scope
 
@@ -109,6 +112,7 @@ professional project hygiene, and the goal of sharing readable solutions.
 - Constants live in `constants.py`.
 - Source files use Doxygen comments.
 - Nothing is committed or pushed unless the user asks.
+- Duration: one week, 2026-10-05 to 2026-10-12.
 
 ## Cost–Benefit Assessment
 
@@ -131,4 +135,4 @@ Proceed — the scope is small, well specified and delivers a reusable example.
 ---
 
 [SA-001]: ./stakeholder-analysis.md
-[c0c3940]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/015-coffee_machine/commit/c0c3940551db0d7d96492cc734976d0436051ff9
+[8ef00aa]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/015-coffee_machine/commit/8ef00aafaaa193ea565f1a45238d31e963a5e05d

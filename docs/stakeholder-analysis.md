@@ -9,7 +9,8 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-05 | Accepted | Jens Tirsvad Nielsen | S01 | Initial version | [c0c3940] |
+| 2026-10-05 | Deprecated | Jens Tirsvad Nielsen | S01 | Initial version | [c0c3940] |
+| 2026-10-06 | Accepted | Jens Tirsvad Nielsen | S01 | Recorded S01 sign-off after RC-002 | [8ef00aa] |
 
 ---
 
@@ -70,9 +71,10 @@ Monitor).
 
 | Stakeholder | Decision | Date |
 | --- | --- | --- |
-| S01 | Pending review | |
+| S01 | Go (RC-002) | 2026-10-06 |
 
 ---
 
 [BC-001]: ./business-case.md
 [c0c3940]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/015-coffee_machine/commit/c0c3940551db0d7d96492cc734976d0436051ff9
+[8ef00aa]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/015-coffee_machine/commit/8ef00aafaaa193ea565f1a45238d31e963a5e05d
