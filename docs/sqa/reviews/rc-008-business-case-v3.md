@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-06 | Proposed | Jens Tirsvad Nielsen | S01 | Initial version | pending |
+| 2026-10-06 | Proposed | Jens Tirsvad Nielsen | S01 | Initial version | [861edbf] |
 
 ---
 
@@ -49,3 +49,4 @@ Go — all mandatory criteria pass. Two defects were found in version 3 (no succ
 [BC-001]: ../../business-case.md
 [QC-BC-001]: ../../../framework/qc/qc-business-case.md
 [RC-001]: ./rc-001-business-case.md
+[861edbf]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/015-coffee_machine/commit/861edbfa92ed8b28b018c44ffd05a0b1eed035b5
