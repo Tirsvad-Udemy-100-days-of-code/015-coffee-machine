@@ -9,7 +9,8 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-05 | Accepted | Jens Tirsvad Nielsen | S01 | Initial version | [c0c3940] |
+| 2026-10-05 | Deprecated | Jens Tirsvad Nielsen | S01 | Initial version | [c0c3940] |
+| 2026-10-06 | Accepted | Jens Tirsvad Nielsen | S01 | Recorded S01 sign-off after RC-002 | pending |
 
 ---
 
@@ -70,7 +71,7 @@ Monitor).
 
 | Stakeholder | Decision | Date |
 | --- | --- | --- |
-| S01 | Pending review | |
+| S01 | Go (RC-002) | 2026-10-06 |
 
 ---
 

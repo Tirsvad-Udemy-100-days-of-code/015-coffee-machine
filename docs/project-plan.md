@@ -4,12 +4,13 @@
 | Key | Value |
 | --- | --- |
 | ID | PP-001 |
-| CrossReference | [BC-001], [SA-001], [MIL-001], [MIL-002], [MIL-003] |
+| CrossReference | [BC-001], [SA-001], [MIL-001], [MIL-002], [MIL-003], [MIL-004] |
 
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-10-05 | Accepted | Jens Tirsvad Nielsen | S01 | Initial version | [c0c3940] |
+| 2026-10-06 | Proposed | Jens Tirsvad Nielsen | S01 | Added MIL-004 Code Review and CI | pending |
 
 ---
 
@@ -31,6 +32,7 @@ published project, within the short assignment timeline in [BC-001].
 | Project Setup | [MIL-001] | 2026-10-05 to 2026-10-07 | 2026-10-07 | S01 | none | Skeleton, tooling, README | [Milestone 40] |
 | Coffee Machine Core | [MIL-002] | 2026-10-08 to 2026-10-10 | 2026-10-10 | S01 | none | Working program | [Milestone 41] |
 | Quality and Publication | [MIL-003] | 2026-10-11 to 2026-10-12 | 2026-10-12 | S01 | none | Tests, Doxygen, published repo | [Milestone 42] |
+| Code Review and CI | [MIL-004] | 2026-10-07 to 2026-10-12 | 2026-10-12 | S01 | none | Source review record, CI workflow | |
 
 ```plantuml
 @startgantt
@@ -41,6 +43,8 @@ Project starts 2026-10-05
 [MIL-001 Go/No-Go] happens 2026-10-07
 [MIL-002 Go/No-Go] happens 2026-10-10
 [MIL-003 Go/No-Go] happens 2026-10-12
+[Code Review and CI] starts 2026-10-07 and ends 2026-10-12
+[MIL-004 Go/No-Go] happens 2026-10-12
 @endgantt
 ```
 
@@ -53,11 +57,12 @@ Project starts 2026-10-05
 | `pyproject.toml`, `.gitignore`, `Doxyfile`, README | [MIL-001] |
 | Project documents | Planning, before [MIL-001] |
 | Repository description and topics | [MIL-003] |
+| Source code review record and CI workflow | [MIL-004] |
 
 ## Dependencies
 
 ```
-MIL-001 -> MIL-002 -> MIL-003
+MIL-001 -> MIL-002 -> MIL-003 -> MIL-004
 ```
 
 A No-Go moves all later dates by the same amount.
@@ -66,6 +71,7 @@ A No-Go moves all later dates by the same amount.
 
 | Risk | Impact | Mitigation |
 | --- | --- | --- |
+| The git host has no Actions runner | CI cannot run | Check the host first; if none, keep the workflow file and document the local commands |
 | README template not supplied | README task blocked | Ask S01 for the template before the task |
 | Doxygen not installed locally | Cannot verify docs | Document the install step in README |
 
@@ -82,6 +88,7 @@ A No-Go moves all later dates by the same amount.
 [MIL-001]: ./milestones/mil-001-project-setup.md
 [MIL-002]: ./milestones/mil-002-coffee-machine-core.md
 [MIL-003]: ./milestones/mil-003-quality-and-publication.md
+[MIL-004]: ./milestones/mil-004-code-review-and-ci.md
 [Milestone 40]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/015-coffee_machine/milestone/40
 [Milestone 41]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/015-coffee_machine/milestone/41
 [Milestone 42]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/015-coffee_machine/milestone/42
