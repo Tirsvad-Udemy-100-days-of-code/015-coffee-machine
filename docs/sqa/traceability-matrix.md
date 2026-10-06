@@ -9,8 +9,8 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-06 | Proposed | Jens Tirsvad Nielsen | S01 | Added RC-006, RC-007 and the source code row | [00d47e2] |
 | 2026-10-06 | Proposed | Jens Tirsvad Nielsen | S01 | Business Case last reviewed in RC-008 | [71a27dd] |
+| 2026-10-06 | Proposed | Jens Tirsvad Nielsen | S01 | Project Plan last reviewed in RC-009 | pending |
 
 ---
 
@@ -26,7 +26,7 @@ artifact instance is created or reviewed.
 | --- | --- | --- | --- | --- |
 | [SA-001] | Stakeholder Analysis | - | [BC-001] | [RC-002] |
 | [BC-001] | Business Case | [SA-001] | [PP-001], [MIL-001], [MIL-002], [MIL-003], [MIL-004] | [RC-008] |
-| [PP-001] | Project Plan | [BC-001], [SA-001] | [MIL-001], [MIL-002], [MIL-003], [MIL-004] | - |
+| [PP-001] | Project Plan | [BC-001], [SA-001] | [MIL-001], [MIL-002], [MIL-003], [MIL-004] | [RC-009] |
 | [MIL-001] | Milestone | [BC-001], [PP-001] | - | [RC-003] |
 | [MIL-002] | Milestone | [BC-001], [PP-001] | - | [RC-004] |
 | [MIL-003] | Milestone | [BC-001], [PP-001] | - | [RC-005] |
@@ -36,7 +36,7 @@ artifact instance is created or reviewed.
 ## Coverage Notes
 
 - `-` in Upstream means foundational; in Downstream, nothing is built on it yet; in Last Reviewed, no `RC-*` exists yet.
-- [PP-001] has no QC checklist in the framework, so it has no `RC-*`.
+- [PP-001] has no QC checklist in the framework; [RC-009] reviews it against criteria taken from the Project Plan reference.
 - No use case, domain model, design or data artifacts exist; the plan treats all tasks as plain technical tasks. The source code is reviewed in [RC-006].
 
 ---
@@ -55,5 +55,5 @@ artifact instance is created or reviewed.
 [RC-006]: ./reviews/rc-006-source-code.md
 [RC-007]: ./reviews/rc-007-mil-004.md
 [RC-008]: ./reviews/rc-008-business-case-v3.md
-[00d47e2]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/015-coffee_machine/commit/00d47e244c82007bbc55e18312649189b175ec10
+[RC-009]: ./reviews/rc-009-project-plan-v2.md
 [71a27dd]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/015-coffee_machine/commit/71a27ddc1f5555c1b836b1556fab292ebc9deb62

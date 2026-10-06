@@ -9,21 +9,21 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-05 | Accepted | Jens Tirsvad Nielsen | S01 | Initial version | [c0c3940] |
-| 2026-10-06 | Proposed | Jens Tirsvad Nielsen | S01 | Added MIL-004 Code Review and CI | [8ef00aa] |
+| 2026-10-06 | Deprecated | Jens Tirsvad Nielsen | S01 | Added MIL-004 Code Review and CI | [8ef00aa] |
+| 2026-10-06 | Accepted | Jens Tirsvad Nielsen | S01 | Fixed phase count, dependency overlap and stale risks and open issues (RC-009 actions) | pending |
 
 ---
 
 ## Purpose
 
-Schedule the three phases that take the coffee machine from empty repository to
-published project, within the short assignment timeline in [BC-001].
+Schedule the four phases that take the coffee machine from empty repository to a
+reviewed, published project, within the one-week duration in [BC-001].
 
 ## Planning Assumptions
 
 - Week 1 starts 2026-10-05; the plan ends by 2026-10-12.
 - Phase length: two to three days; S01 reviews each phase through a pull request (see [SA-001]).
-- Each phase is one branch and one pull request.
+- Each phase is delivered through one or more branches and pull requests.
 
 ## Gateway Schedule
 
@@ -65,6 +65,8 @@ Project starts 2026-10-05
 MIL-001 -> MIL-002 -> MIL-003 -> MIL-004
 ```
 
+[MIL-004] may start once the [MIL-003] tests are merged, so their windows overlap; its decision follows the decision of [MIL-003].
+
 A No-Go moves all later dates by the same amount.
 
 ## Plan Risks
@@ -72,14 +74,11 @@ A No-Go moves all later dates by the same amount.
 | Risk | Impact | Mitigation |
 | --- | --- | --- |
 | The git host has no Actions runner | CI cannot run | Check the host first; if none, keep the workflow file and document the local commands |
-| README template not supplied | README task blocked | Ask S01 for the template before the task |
 | Doxygen not installed locally | Cannot verify docs | Document the install step in README |
 
 ## Open Issues
 
-- The README template referenced in the request ("template below") was not included.
 - No use cases or user stories are written; tasks are plain technical tasks implementing the assignment specification. S01 can ask for a use case ("Order a drink") if wanted.
-- Python ">3.13" is read as 3.13 or newer (`>=3.13`).
 
 ---
 
@@ -92,6 +91,5 @@ A No-Go moves all later dates by the same amount.
 [Milestone 40]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/015-coffee_machine/milestone/40
 [Milestone 41]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/015-coffee_machine/milestone/41
 [Milestone 42]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/015-coffee_machine/milestone/42
-[c0c3940]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/015-coffee_machine/commit/c0c3940551db0d7d96492cc734976d0436051ff9
 [8ef00aa]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/015-coffee_machine/commit/8ef00aafaaa193ea565f1a45238d31e963a5e05d
 [Milestone 48]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/015-coffee_machine/milestone/48
