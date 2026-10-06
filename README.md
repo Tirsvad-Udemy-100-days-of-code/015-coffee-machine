@@ -103,7 +103,7 @@ doxygen Doxyfile
 | --- | --- |
 | `src/coffee_machine/` | The machine: `main.py` (the loop), `constants.py` (menu, coins, starting resources) |
 | `tests/` | pytest tests |
-| `docs/` | Planning and review documents (business case, plan, milestones) |
+| `docs/` | Planning documents (business case, plan, milestones) and SQA review records with the traceability matrix (`docs/sqa/`) |
 | `pyproject.toml` | Project configuration |
 | `Doxyfile` | Doxygen configuration |
 | `.gitea/workflows/` | CI workflow |
