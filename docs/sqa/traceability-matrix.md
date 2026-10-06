@@ -9,8 +9,8 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-06 | Proposed | Jens Tirsvad Nielsen | S01 | Initial version | [8ef00aa] |
 | 2026-10-06 | Proposed | Jens Tirsvad Nielsen | S01 | Added MIL-004 | [8ef00aa] |
+| 2026-10-06 | Proposed | Jens Tirsvad Nielsen | S01 | Added RC-006, RC-007 and the source code row | [00d47e2] |
 
 ---
 
@@ -30,13 +30,14 @@ artifact instance is created or reviewed.
 | [MIL-001] | Milestone | [BC-001], [PP-001] | - | [RC-003] |
 | [MIL-002] | Milestone | [BC-001], [PP-001] | - | [RC-004] |
 | [MIL-003] | Milestone | [BC-001], [PP-001] | - | [RC-005] |
-| [MIL-004] | Milestone | [BC-001], [PP-001] | - | - |
+| [MIL-004] | Milestone | [BC-001], [PP-001] | - | [RC-007] |
+| Source code (`src/`, `tests/`) | Source code | [MIL-002], [MIL-003], [MIL-004] | - | [RC-006] |
 
 ## Coverage Notes
 
 - `-` in Upstream means foundational; in Downstream, nothing is built on it yet; in Last Reviewed, no `RC-*` exists yet.
 - [PP-001] has no QC checklist in the framework, so it has no `RC-*`.
-- No use case, domain model, design or data artifacts exist; the plan treats all tasks as plain technical tasks. The source code is covered by the tests, not by an `RC-*`.
+- No use case, domain model, design or data artifacts exist; the plan treats all tasks as plain technical tasks. The source code is reviewed in [RC-006].
 
 ---
 
@@ -52,4 +53,7 @@ artifact instance is created or reviewed.
 [RC-003]: ./reviews/rc-003-mil-001.md
 [RC-004]: ./reviews/rc-004-mil-002.md
 [RC-005]: ./reviews/rc-005-mil-003.md
+[RC-006]: ./reviews/rc-006-source-code.md
+[RC-007]: ./reviews/rc-007-mil-004.md
 [8ef00aa]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/015-coffee_machine/commit/8ef00aafaaa193ea565f1a45238d31e963a5e05d
+[00d47e2]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/015-coffee_machine/commit/00d47e244c82007bbc55e18312649189b175ec10
