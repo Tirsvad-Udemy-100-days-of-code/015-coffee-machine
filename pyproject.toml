@@ -12,7 +12,7 @@ license = { file = "LICENSE" }
 dependencies = []
 
 [project.optional-dependencies]
-dev = ["pytest>=8", "ruff", "mypy"]
+dev = ["pytest>=9", "ruff>=0.16", "mypy>=2.4"]
 
 [project.scripts]
 coffee-machine = "coffee_machine.main:main"

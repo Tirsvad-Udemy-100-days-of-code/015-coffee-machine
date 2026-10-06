@@ -79,6 +79,16 @@ python -m ruff format --check src tests
 python -m mypy src tests
 ```
 
+## Continuous integration
+
+On every push and pull request, `.gitea/workflows/ci.yml` installs the project on
+Python 3.13 and runs the same checks as above: `pytest`, `ruff check`,
+`ruff format --check` and `mypy`. To run all of them locally:
+
+```bash
+python -m pytest && python -m ruff check src tests && python -m ruff format --check src tests && python -m mypy src tests
+```
+
 ## Build the source documentation
 
 The source uses Doxygen comments. The HTML output goes to `docs/doxygen/html`.
@@ -96,6 +106,7 @@ doxygen Doxyfile
 | `docs/` | Planning and review documents (business case, plan, milestones) |
 | `pyproject.toml` | Project configuration |
 | `Doxyfile` | Doxygen configuration |
+| `.gitea/workflows/` | CI workflow |
 
 ## License
 

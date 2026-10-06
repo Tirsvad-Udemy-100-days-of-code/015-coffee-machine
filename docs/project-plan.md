@@ -32,7 +32,7 @@ published project, within the short assignment timeline in [BC-001].
 | Project Setup | [MIL-001] | 2026-10-05 to 2026-10-07 | 2026-10-07 | S01 | none | Skeleton, tooling, README | [Milestone 40] |
 | Coffee Machine Core | [MIL-002] | 2026-10-08 to 2026-10-10 | 2026-10-10 | S01 | none | Working program | [Milestone 41] |
 | Quality and Publication | [MIL-003] | 2026-10-11 to 2026-10-12 | 2026-10-12 | S01 | none | Tests, Doxygen, published repo | [Milestone 42] |
-| Code Review and CI | [MIL-004] | 2026-10-07 to 2026-10-12 | 2026-10-12 | S01 | none | Source review record, CI workflow | |
+| Code Review and CI | [MIL-004] | 2026-10-07 to 2026-10-12 | 2026-10-12 | S01 | none | Source review record, CI workflow | [Milestone 48] |
 
 ```plantuml
 @startgantt
@@ -94,3 +94,4 @@ A No-Go moves all later dates by the same amount.
 [Milestone 42]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/015-coffee_machine/milestone/42
 [c0c3940]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/015-coffee_machine/commit/c0c3940551db0d7d96492cc734976d0436051ff9
 [8ef00aa]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/015-coffee_machine/commit/8ef00aafaaa193ea565f1a45238d31e963a5e05d
+[Milestone 48]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/015-coffee_machine/milestone/48
