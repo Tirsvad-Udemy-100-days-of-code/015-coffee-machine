@@ -9,8 +9,8 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-06 | Accepted | Jens Tirsvad Nielsen | S01 | Added duration constraint (RC-001 action) | [8ef00aa] |
-| 2026-10-06 | Proposed | Jens Tirsvad Nielsen | S01 | Added objective 6 and scope for code review and CI | [8ef00aa] |
+| 2026-10-06 | Deprecated | Jens Tirsvad Nielsen | S01 | Added objective 6 and scope for code review and CI | [8ef00aa] |
+| 2026-10-06 | Accepted | Jens Tirsvad Nielsen | S01 | Added success criterion 6 and clarified the Python version (RC-008 actions) | [71a27dd] |
 
 ---
 
@@ -92,6 +92,7 @@ professional project hygiene, and the goal of sharing readable solutions.
 | 3 | Runtime dependencies | 0 | `pyproject.toml` `dependencies` is empty |
 | 4 | Setup documented | A new reader can run program and tests from README | README walkthrough |
 | 5 | Repository metadata | Description and at least 3 topics set | Repository page |
+| 6 | Code reviewed and checked automatically | Source review record with verdict Go; latest CI run on `main` green | `docs/sqa/reviews/` and the CI run on the git host |
 
 ## Risks
 
@@ -108,7 +109,7 @@ professional project hygiene, and the goal of sharing readable solutions.
 
 ## Constraints
 
-- Python greater than 3.13 as requested, `venv` for environments, pytest for tests.
+- Python 3.13 or newer (the request says "greater than 3.13"; read as `>=3.13`), `venv` for environments, pytest for tests.
 - Constants live in `constants.py`.
 - Source files use Doxygen comments.
 - Nothing is committed or pushed unless the user asks.
@@ -136,3 +137,4 @@ Proceed — the scope is small, well specified and delivers a reusable example.
 
 [SA-001]: ./stakeholder-analysis.md
 [8ef00aa]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/015-coffee_machine/commit/8ef00aafaaa193ea565f1a45238d31e963a5e05d
+[71a27dd]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/015-coffee_machine/commit/71a27ddc1f5555c1b836b1556fab292ebc9deb62

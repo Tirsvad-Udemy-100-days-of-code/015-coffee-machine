@@ -9,8 +9,8 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-06 | Proposed | Jens Tirsvad Nielsen | S01 | Added MIL-004 | [8ef00aa] |
 | 2026-10-06 | Proposed | Jens Tirsvad Nielsen | S01 | Added RC-006, RC-007 and the source code row | [00d47e2] |
+| 2026-10-06 | Proposed | Jens Tirsvad Nielsen | S01 | Business Case last reviewed in RC-008 | [71a27dd] |
 
 ---
 
@@ -25,7 +25,7 @@ artifact instance is created or reviewed.
 | Artifact Instance | Type | Upstream (Backward Link) | Downstream (Forward Link) | Last Reviewed (RC-ID) |
 | --- | --- | --- | --- | --- |
 | [SA-001] | Stakeholder Analysis | - | [BC-001] | [RC-002] |
-| [BC-001] | Business Case | [SA-001] | [PP-001], [MIL-001], [MIL-002], [MIL-003], [MIL-004] | [RC-001] |
+| [BC-001] | Business Case | [SA-001] | [PP-001], [MIL-001], [MIL-002], [MIL-003], [MIL-004] | [RC-008] |
 | [PP-001] | Project Plan | [BC-001], [SA-001] | [MIL-001], [MIL-002], [MIL-003], [MIL-004] | - |
 | [MIL-001] | Milestone | [BC-001], [PP-001] | - | [RC-003] |
 | [MIL-002] | Milestone | [BC-001], [PP-001] | - | [RC-004] |
@@ -48,12 +48,12 @@ artifact instance is created or reviewed.
 [MIL-002]: ../milestones/mil-002-coffee-machine-core.md
 [MIL-003]: ../milestones/mil-003-quality-and-publication.md
 [MIL-004]: ../milestones/mil-004-code-review-and-ci.md
-[RC-001]: ./reviews/rc-001-business-case.md
 [RC-002]: ./reviews/rc-002-stakeholder-analysis.md
 [RC-003]: ./reviews/rc-003-mil-001.md
 [RC-004]: ./reviews/rc-004-mil-002.md
 [RC-005]: ./reviews/rc-005-mil-003.md
 [RC-006]: ./reviews/rc-006-source-code.md
 [RC-007]: ./reviews/rc-007-mil-004.md
-[8ef00aa]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/015-coffee_machine/commit/8ef00aafaaa193ea565f1a45238d31e963a5e05d
+[RC-008]: ./reviews/rc-008-business-case-v3.md
 [00d47e2]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/015-coffee_machine/commit/00d47e244c82007bbc55e18312649189b175ec10
+[71a27dd]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/015-coffee_machine/commit/71a27ddc1f5555c1b836b1556fab292ebc9deb62
