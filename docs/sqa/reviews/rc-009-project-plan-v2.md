@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-06 | Proposed | Jens Tirsvad Nielsen | S01 | Initial version | pending |
+| 2026-10-06 | Proposed | Jens Tirsvad Nielsen | S01 | Initial version | [52b9725] |
 
 ---
 
@@ -51,3 +51,4 @@ Go — every criterion passes. Five defects were found in version 2 (wrong phase
 
 [PP-001]: ../../project-plan.md
 [PP-reference]: ../../../framework/.agents/skills/artifact/references/PP.md
+[52b9725]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/015-coffee_machine/commit/52b972520d33dc3b50f1c050d874aaeb7293a557

@@ -10,7 +10,7 @@
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-10-06 | Proposed | Jens Tirsvad Nielsen | S01 | Business Case last reviewed in RC-008 | [71a27dd] |
-| 2026-10-06 | Proposed | Jens Tirsvad Nielsen | S01 | Project Plan last reviewed in RC-009 | pending |
+| 2026-10-06 | Proposed | Jens Tirsvad Nielsen | S01 | Project Plan last reviewed in RC-009 | [52b9725] |
 
 ---
 
@@ -57,3 +57,4 @@ artifact instance is created or reviewed.
 [RC-008]: ./reviews/rc-008-business-case-v3.md
 [RC-009]: ./reviews/rc-009-project-plan-v2.md
 [71a27dd]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/015-coffee_machine/commit/71a27ddc1f5555c1b836b1556fab292ebc9deb62
+[52b9725]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/015-coffee_machine/commit/52b972520d33dc3b50f1c050d874aaeb7293a557

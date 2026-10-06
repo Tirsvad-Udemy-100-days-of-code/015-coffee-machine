@@ -10,7 +10,7 @@
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-10-06 | Deprecated | Jens Tirsvad Nielsen | S01 | Added MIL-004 Code Review and CI | [8ef00aa] |
-| 2026-10-06 | Accepted | Jens Tirsvad Nielsen | S01 | Fixed phase count, dependency overlap and stale risks and open issues (RC-009 actions) | pending |
+| 2026-10-06 | Accepted | Jens Tirsvad Nielsen | S01 | Fixed phase count, dependency overlap and stale risks and open issues (RC-009 actions) | [52b9725] |
 
 ---
 
@@ -93,3 +93,4 @@ A No-Go moves all later dates by the same amount.
 [Milestone 42]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/015-coffee_machine/milestone/42
 [8ef00aa]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/015-coffee_machine/commit/8ef00aafaaa193ea565f1a45238d31e963a5e05d
 [Milestone 48]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/015-coffee_machine/milestone/48
+[52b9725]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/015-coffee_machine/commit/52b972520d33dc3b50f1c050d874aaeb7293a557
