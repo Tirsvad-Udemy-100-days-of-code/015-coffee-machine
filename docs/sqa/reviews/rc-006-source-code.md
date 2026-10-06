@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-06 | Proposed | Jens Tirsvad Nielsen | S01 | Initial version | pending |
+| 2026-10-06 | Proposed | Jens Tirsvad Nielsen | S01 | Initial version | [00d47e2] |
 
 ---
 
@@ -51,3 +51,4 @@ Go — every mandatory criterion passes or is N-A. The one Fail (13) is optional
 
 [MIL-004]: ../../milestones/mil-004-code-review-and-ci.md
 [QC-PY-001]: ../../../framework/qc/qc-programming-python.md
+[00d47e2]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/015-coffee_machine/commit/00d47e244c82007bbc55e18312649189b175ec10

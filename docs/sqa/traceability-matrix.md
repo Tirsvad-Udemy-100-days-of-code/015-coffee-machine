@@ -10,7 +10,7 @@
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-10-06 | Proposed | Jens Tirsvad Nielsen | S01 | Added MIL-004 | [8ef00aa] |
-| 2026-10-06 | Proposed | Jens Tirsvad Nielsen | S01 | Added RC-006, RC-007 and the source code row | pending |
+| 2026-10-06 | Proposed | Jens Tirsvad Nielsen | S01 | Added RC-006, RC-007 and the source code row | [00d47e2] |
 
 ---
 
@@ -56,3 +56,4 @@ artifact instance is created or reviewed.
 [RC-006]: ./reviews/rc-006-source-code.md
 [RC-007]: ./reviews/rc-007-mil-004.md
 [8ef00aa]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/015-coffee_machine/commit/8ef00aafaaa193ea565f1a45238d31e963a5e05d
+[00d47e2]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/015-coffee_machine/commit/00d47e244c82007bbc55e18312649189b175ec10
