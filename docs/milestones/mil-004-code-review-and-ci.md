@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-06 | Proposed | Jens Tirsvad Nielsen | S01 | Initial version | pending |
+| 2026-10-06 | Proposed | Jens Tirsvad Nielsen | S01 | Initial version | [8ef00aa] |
 
 ---
 
@@ -67,3 +67,4 @@ Decide whether the source code has been reviewed against the Python quality chec
 ---
 
 [BC-001]: ../business-case.md
+[8ef00aa]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/015-coffee_machine/commit/8ef00aafaaa193ea565f1a45238d31e963a5e05d

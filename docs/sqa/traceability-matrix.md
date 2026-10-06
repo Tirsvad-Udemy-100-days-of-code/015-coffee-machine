@@ -9,8 +9,8 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-06 | Proposed | Jens Tirsvad Nielsen | S01 | Initial version | pending |
-| 2026-10-06 | Proposed | Jens Tirsvad Nielsen | S01 | Added MIL-004 | pending |
+| 2026-10-06 | Proposed | Jens Tirsvad Nielsen | S01 | Initial version | [8ef00aa] |
+| 2026-10-06 | Proposed | Jens Tirsvad Nielsen | S01 | Added MIL-004 | [8ef00aa] |
 
 ---
 
@@ -52,3 +52,4 @@ artifact instance is created or reviewed.
 [RC-003]: ./reviews/rc-003-mil-001.md
 [RC-004]: ./reviews/rc-004-mil-002.md
 [RC-005]: ./reviews/rc-005-mil-003.md
+[8ef00aa]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/015-coffee_machine/commit/8ef00aafaaa193ea565f1a45238d31e963a5e05d

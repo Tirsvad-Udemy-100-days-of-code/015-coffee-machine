@@ -9,8 +9,8 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-06 | Accepted | Jens Tirsvad Nielsen | S01 | Added duration constraint (RC-001 action) | pending |
-| 2026-10-06 | Proposed | Jens Tirsvad Nielsen | S01 | Added objective 6 and scope for code review and CI | pending |
+| 2026-10-06 | Accepted | Jens Tirsvad Nielsen | S01 | Added duration constraint (RC-001 action) | [8ef00aa] |
+| 2026-10-06 | Proposed | Jens Tirsvad Nielsen | S01 | Added objective 6 and scope for code review and CI | [8ef00aa] |
 
 ---
 
@@ -135,3 +135,4 @@ Proceed — the scope is small, well specified and delivers a reusable example.
 ---
 
 [SA-001]: ./stakeholder-analysis.md
+[8ef00aa]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/015-coffee_machine/commit/8ef00aafaaa193ea565f1a45238d31e963a5e05d

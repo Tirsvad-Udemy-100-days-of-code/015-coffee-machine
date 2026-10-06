@@ -10,7 +10,7 @@
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-10-05 | Accepted | Jens Tirsvad Nielsen | S01 | Initial version | [c0c3940] |
-| 2026-10-06 | Proposed | Jens Tirsvad Nielsen | S01 | Added MIL-004 Code Review and CI | pending |
+| 2026-10-06 | Proposed | Jens Tirsvad Nielsen | S01 | Added MIL-004 Code Review and CI | [8ef00aa] |
 
 ---
 
@@ -93,3 +93,4 @@ A No-Go moves all later dates by the same amount.
 [Milestone 41]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/015-coffee_machine/milestone/41
 [Milestone 42]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/015-coffee_machine/milestone/42
 [c0c3940]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/015-coffee_machine/commit/c0c3940551db0d7d96492cc734976d0436051ff9
+[8ef00aa]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/015-coffee_machine/commit/8ef00aafaaa193ea565f1a45238d31e963a5e05d
