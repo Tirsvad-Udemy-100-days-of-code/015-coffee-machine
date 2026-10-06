@@ -9,8 +9,8 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-06 | Proposed | Jens Tirsvad Nielsen | S01 | Business Case last reviewed in RC-008 | [71a27dd] |
-| 2026-10-06 | Proposed | Jens Tirsvad Nielsen | S01 | Project Plan last reviewed in RC-009 | [52b9725] |
+| 2026-10-06 | Deprecated | Jens Tirsvad Nielsen | S01 | Business Case last reviewed in RC-008 | [71a27dd] |
+| 2026-10-06 | Accepted | Jens Tirsvad Nielsen | S01 | Project Plan last reviewed in RC-009 | [52b9725] |
 
 ---
 
